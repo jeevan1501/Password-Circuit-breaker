@@ -38,8 +38,8 @@ void loop()
   lcd.setCursor(6,1);
   while (c<4)
   {
-   char key = keypad.getKey();  
-   lcd.print(key);
+   char x = keypad.getKey();  
+   lcd.print(x);
     if (x)
     {
       if (x== '#')
